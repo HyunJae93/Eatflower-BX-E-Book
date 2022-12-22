@@ -1,0 +1,95 @@
+.fixed_box {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    width: 60px;
+}
+
+.fixed_box a img {
+    width: 100%;
+}
+
+#bg {
+    position: relative;
+    background-color: #c2ded0;
+}
+
+.logo_box {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 110px;
+}
+
+.logo_box img {
+    width: 100%;
+}
+
+.bg_item1 {
+    position: absolute;
+    top: 96px;
+    left: 199px;
+    animation: one 3s linear infinite alternate;
+}
+
+.bg_item2 {
+    position: absolute;
+    top: 169px;
+    left: 1636px;
+    animation: two 2.7s linear infinite alternate;
+}
+
+.bg_item3 {
+    position: absolute;
+    top: 657px;
+    left: 150px;
+    animation: three 2.3s linear infinite alternate;
+}
+
+.bg_item4 {
+    position: absolute;
+    top: 637px;
+    left: 1632px;
+    animation: four 2.5s linear infinite alternate;
+}
+
+@keyframes one {
+    from {
+        transform: translateY(-10px) rotate(5deg);
+    }
+
+    to {
+        transform: translateY(10px) rotate(-5deg);
+    }
+}
+
+@keyframes two {
+    from {
+        transform: translateY(10px) rotate(-5deg);
+    }
+
+    to {
+        transform: translateY(-10px) rotate(-15deg);
+    }
+}
+
+@keyframes three {
+    from {
+        transform: translateY(10px) rotate(-0deg);
+    }
+
+    to {
+        transform: translateY(-10px) rotate(10deg);
+    }
+}
+
+@keyframes four {
+    from {
+        transform: translateY(-10px) rotate(-20deg);
+    }
+
+    to {
+        transform: translateY(10px) rotate(-10deg);
+    }
+}
